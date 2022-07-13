@@ -311,6 +311,7 @@ color: var(--second-text-cl);
   margin-bottom: 30px;
   width: 270px;
   height: 120px;
+  border-radius: 4px;
 
   background-color: var(--second-color);
 }
@@ -516,11 +517,11 @@ align-items: center;
 
 .footer-container {
   display: flex; 
+  align-items: baseline;
 }
 
 .footer-address {
   margin-right: 70px;
-  margin-top: 60px;
 }
 
 .address {
@@ -588,7 +589,6 @@ align-items: center;
 
 .social-foot-icon {
   display: flex;
-  margin-top: 72px;
 }
 
 .join {
@@ -626,7 +626,7 @@ align-items: center;
 }
 
 .social-footer-link:hover,
-.social-media-link:focus {
+.social-footer-link:focus {
   color: var(--icon-footer-cl);
   background-color: var(--btn-color);
 }
